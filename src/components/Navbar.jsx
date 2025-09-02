@@ -1,5 +1,6 @@
 import logo from "../assets/logo.svg";
 import { HashLink } from "react-router-hash-link";
+
 import { useLocation } from "react-router-dom";
 import { IoMdMenu } from "react-icons/io";
 import { useState } from "react";
@@ -28,7 +29,7 @@ export default function Navbar() {
   return (
     <div className="site-header">
       <div className="logo">
-        <a href="/">
+        <a href={import.meta.env.BASE_URL}>
           <img src={logo} alt="logo" width="171px" height="20px" />
         </a>
       </div>
