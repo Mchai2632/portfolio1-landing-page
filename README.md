@@ -1,4 +1,4 @@
-# Portfolio-1 Landing Page
+# Portfolio-1 Landing Page (16 hours)
 
 A responsive one-page website built with <strong>ReactJS</strong> and <strong>Vanilla CSS</strong>, featuring smooth scrolling navigation and a modern UI design.
 
